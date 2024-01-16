@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #FF5400;
+  background: #ff5500;
   border-radius: 20px;
 }
 
@@ -683,6 +683,10 @@ footer{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+  }
+
+  body::-webkit-scrollbar {
+    width: 3px;
   }
 
   header {

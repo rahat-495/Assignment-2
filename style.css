@@ -5,6 +5,16 @@
   font-family: "Mulish", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  background-color: #ff55002f;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #FF5400;
+  border-radius: 20px;
+}
+
 a {
   text-decoration: none;
 }

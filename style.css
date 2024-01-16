@@ -937,7 +937,7 @@ footer{
 
   .news-sec-cards-img-div{
     width: 100%;
-    height: 235px;
+    height: 264px;
   }
 
   .save-div{
@@ -969,7 +969,8 @@ footer{
   .footer-title{
     display: flex;
     gap: 16px;
-    margin-top: 0px;
+    margin-top: -10px;
+    margin-bottom: 30px;
   }
 
   .footer-descri{

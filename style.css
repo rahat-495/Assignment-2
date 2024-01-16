@@ -663,7 +663,7 @@ footer{
 
 
 /* Responsive for mobile deviches ! */
-@media screen and  (max-width: 455px) {
+@media screen and  (max-width: 576px) {
   html,
   body {
     width: 100%;
@@ -699,7 +699,9 @@ footer{
   .nav-items ul {
     position: fixed;
     width: 100%;
-    height: 15vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
     background-color: #424247;
     top: 100px;
     left: -100%;
@@ -713,12 +715,12 @@ footer{
 
   .nav-items ul li {
     list-style: none;
-    margin: 0px 10px;
+    margin: 10px 10px;
   }
 
   .nav-items ul li a {
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 400;
   }
 
@@ -937,11 +939,11 @@ footer{
   }
 
   .save-div{
-    width: 214.023px;
+    width: 56%;
     height: 79.268px;
     transform: rotate(-19.628deg);
     border-radius: 10px;
-    top: 52%;
+    top: 50%;
     left: 43%;
   }
 

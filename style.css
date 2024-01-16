@@ -663,7 +663,7 @@ footer{
 
 
 /* Responsive for mobile deviches ! */
-@media screen and (max-width: 600px) {
+@media screen and  (max-width: 455px) {
   html,
   body {
     width: 100%;
@@ -726,6 +726,10 @@ footer{
     width: 90%;
     height: 483px;
     background-position: center;
+  }
+
+  .h-banner-items{
+    width: 85%;
   }
 
   .h-banner-title {
@@ -937,8 +941,8 @@ footer{
     height: 79.268px;
     transform: rotate(-19.628deg);
     border-radius: 10px;
-    top: 125px;
-    left: 168px;
+    top: 52%;
+    left: 43%;
   }
 
   .save-div-title{

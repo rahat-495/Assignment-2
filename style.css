@@ -532,6 +532,7 @@ main {
 }
 
 .news-input-divs input{
+  width: 80%;
   font-size: 1rem;
   font-weight: 400;
   border: none;
@@ -834,7 +835,8 @@ main {
     font-size: 0.9rem;
   }
 
-  .choose-sec-cards-items{
+  .choose-sec-cards-items,
+  .news-letter-section{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -857,5 +859,44 @@ main {
     font-size: 0.9rem;
   }
 
+  .news-sec-cards-div{
+    width: 90%;
+    padding: 15px 15px 25px 15px;
+    margin-bottom: 20px;
+  }
+
+  .news-title{
+    font-size: 1.25rem;
+  }
+  
+  .news-descri{
+    width: 270px;
+    font-size: 0.9rem;
+  }
+
+  .news-btn-div{
+    margin-bottom: 10%;
+  }
+
+  .news-sec-cards-img-div{
+    width: 100%;
+  }
+
+  .save-div{
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    border-radius: 10px;
+    top: 101px;
+    left: 119px;
+  }
+
+  .save-div-title{
+    font-size: 15px;
+  }
+
+  .save-div-semi-title{
+    font-size: 21px;
+  }
 
 }
